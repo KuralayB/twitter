@@ -5,6 +5,6 @@ class CreateUsers < ActiveRecord::Migration
       t.string :email
       validates :name, presence: true 
       t.timestamps
-      
+    end
   end
 end
